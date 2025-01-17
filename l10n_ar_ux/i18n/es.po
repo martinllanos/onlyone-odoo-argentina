@@ -3,15 +3,15 @@
 # 	* l10n_ar_ux
 # 
 # Translators:
-# Juan José Scarafía <scarafia.juanjose@gmail.com>, 2025
+# Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-15 19:16+0000\n"
+"POT-Creation-Date: 2025-01-17 21:20+0000\n"
 "PO-Revision-Date: 2024-11-14 20:20+0000\n"
-"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2025\n"
+"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,13 +25,6 @@ msgid "'Reporte de transferencia'"
 msgstr ""
 
 #. module: l10n_ar_ux
-#: model_terms:ir.ui.view,arch_db:l10n_ar_ux.view_move_form
-msgid ""
-", para reestablecerla deberá modificar manualmente la tasa de cambio o "
-"aplicar la cotización del día."
-msgstr ""
-
-#. module: l10n_ar_ux
 #: model_terms:ir.ui.view,arch_db:l10n_ar_ux.report_invoice_document
 msgid "<br/><strong>PO Number:</strong>"
 msgstr "<br/><strong>Nro. de OC:</strong>"
@@ -41,27 +34,6 @@ msgstr "<br/><strong>Nro. de OC:</strong>"
 msgid ""
 "<span class=\"o_form_label\">Firma en reportes</span>\n"
 "                        <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model_terms:ir.ui.view,arch_db:l10n_ar_ux.view_move_form
-msgid ""
-"<span groups=\"base.group_multi_currency\" invisible=\"not "
-"other_currency\">(</span>"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model_terms:ir.ui.view,arch_db:l10n_ar_ux.view_move_form
-msgid ""
-"<span groups=\"base.group_multi_currency\" invisible=\"not "
-"other_currency\">)</span>"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model_terms:ir.ui.view,arch_db:l10n_ar_ux.view_account_move_change_rate
-msgid ""
-"<strong>IMPORTANTE:</strong> el cambio de los importes en ARS se verán solo "
-"reflejados luego de validar el comprobante."
 msgstr ""
 
 #. module: l10n_ar_ux
@@ -167,27 +139,6 @@ msgid "Agregar Duplicado/Triplicado"
 msgstr ""
 
 #. module: l10n_ar_ux
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_account__algolia_search
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_change_currency__algolia_search
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_chart_template__algolia_search
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_journal__algolia_search
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_move__algolia_search
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_move_change_rate__algolia_search
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_move_line__algolia_search
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_payment__algolia_search
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_activity__algolia_search
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_concept__algolia_search
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_tax__algolia_search
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_ir_actions_report__algolia_search
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_res_company__algolia_search
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_res_config_settings__algolia_search
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_res_country_state__algolia_search
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_res_currency__algolia_search
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_res_partner__algolia_search
-msgid "Algolia Search"
-msgstr "Busqueda Avanzada"
-
-#. module: l10n_ar_ux
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_res_company__arba_cit
 msgid "CIT ARBA"
 msgstr ""
@@ -196,26 +147,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_account_payment__l10n_ar_partner_vat
 msgid "CUIT del destinatario"
 msgstr ""
-
-#. module: l10n_ar_ux
-#: model_terms:ir.ui.view,arch_db:l10n_ar_ux.view_account_move_change_rate
-msgid "Cancel"
-msgstr "Cancelar"
-
-#. module: l10n_ar_ux
-#: model:ir.model,name:l10n_ar_ux.model_account_change_currency
-msgid "Change Currency"
-msgstr "Cambiar Moneda"
-
-#. module: l10n_ar_ux
-#: model:ir.actions.act_window,name:l10n_ar_ux.action_account_move_change_rate
-msgid "Change Currency Rate"
-msgstr "Modificar el tipo de cambio"
-
-#. module: l10n_ar_ux
-#: model_terms:ir.ui.view,arch_db:l10n_ar_ux.view_account_move_change_rate
-msgid "Change Rate"
-msgstr "Modificar tipo de cambio"
 
 #. module: l10n_ar_ux
 #: model:ir.model.fields,help:l10n_ar_ux.field_res_company__arba_cit
@@ -264,7 +195,6 @@ msgid "Country state"
 msgstr "Provincia del país"
 
 #. module: l10n_ar_ux
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_move_change_rate__create_uid
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_activity__create_uid
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_concept__create_uid
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_tax__create_uid
@@ -272,7 +202,6 @@ msgid "Created by"
 msgstr "Creado por"
 
 #. module: l10n_ar_ux
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_move_change_rate__create_date
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_activity__create_date
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_concept__create_date
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_tax__create_date
@@ -285,24 +214,6 @@ msgid "Currency"
 msgstr "Moneda"
 
 #. module: l10n_ar_ux
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_move_change_rate__currency_rate
-msgid "Currency Rate"
-msgstr "Tasa de la moneda"
-
-#. module: l10n_ar_ux
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_bank_statement_line__computed_currency_rate
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_move__computed_currency_rate
-#: model_terms:ir.ui.view,arch_db:l10n_ar_ux.view_move_form
-msgid "Currency Rate (preview)"
-msgstr "Tipo de cambio (vista previa)"
-
-#. module: l10n_ar_ux
-#. odoo-python
-#: code:addons/l10n_ar_ux/wizards/account_move_change_rate.py:0
-msgid "Currency rate changed from '%s' to '%s' . Currency rate forced"
-msgstr ""
-
-#. module: l10n_ar_ux
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_account_journal__l10n_ar_afip_pos_partner_id
 msgid "Dirección Punto de venta"
 msgstr ""
@@ -313,7 +224,6 @@ msgid "Discriminate taxes?"
 msgstr "¿Discriminar impuestos?"
 
 #. module: l10n_ar_ux
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_move_change_rate__display_name
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_activity__display_name
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_concept__display_name
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_tax__display_name
@@ -329,11 +239,6 @@ msgstr ""
 #: model:ir.model.fields.selection,name:l10n_ar_ux.selection__ir_actions_report__l10n_ar_copies__triplicado
 msgid "Duplicado y Triplicado"
 msgstr ""
-
-#. module: l10n_ar_ux
-#: model_terms:ir.ui.view,arch_db:l10n_ar_ux.view_move_form
-msgid "Edit Rate"
-msgstr "Editar tipo de cambio"
 
 #. module: l10n_ar_ux
 #: model_terms:ir.ui.view,arch_db:l10n_ar_ux.report_invoice_document
@@ -415,7 +320,6 @@ msgid "Gross Income Jurisdictions"
 msgstr "Jurisdicciones de Ingresos Brutos"
 
 #. module: l10n_ar_ux
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_move_change_rate__id
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_activity__id
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_concept__id
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_tax__id
@@ -461,11 +365,6 @@ msgid "Journal Entry"
 msgstr "Asiento contable"
 
 #. module: l10n_ar_ux
-#: model:ir.model,name:l10n_ar_ux.model_account_move_line
-msgid "Journal Item"
-msgstr "Apunte contable"
-
-#. module: l10n_ar_ux
 #. odoo-python
 #: code:addons/l10n_ar_ux/models/res_partner.py:0
 msgid ""
@@ -482,17 +381,6 @@ msgid "Jurisdiction Code"
 msgstr "Código de jurisdicción"
 
 #. module: l10n_ar_ux
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_bank_statement_line__l10n_ar_currency_rate
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_move__l10n_ar_currency_rate
-msgid "L10N Ar Currency Rate"
-msgstr "Tasa de la moneda"
-
-#. module: l10n_ar_ux
-#: model_terms:ir.ui.view,arch_db:l10n_ar_ux.view_move_form
-msgid "La cotización se encuentra forzada en"
-msgstr ""
-
-#. module: l10n_ar_ux
 #: model_terms:ir.ui.view,arch_db:l10n_ar_ux.res_config_settings_inherit_view_form
 msgid ""
 "La firma y aclaracion que se agreguen aqui sera incluida en los Recibos de "
@@ -506,7 +394,6 @@ msgid "Last Update Padron"
 msgstr "Ultima Actualizacion de Padron"
 
 #. module: l10n_ar_ux
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_move_change_rate__write_uid
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_activity__write_uid
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_concept__write_uid
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_tax__write_uid
@@ -514,7 +401,6 @@ msgid "Last Updated by"
 msgstr "Ultima actualización por"
 
 #. module: l10n_ar_ux
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_move_change_rate__write_date
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_activity__write_date
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_concept__write_date
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_tax__write_date
@@ -568,11 +454,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_res_config_settings__l10n_ar_invoice_report_ars_amount
 msgid "Mostrar importe equivalente en ARS"
 msgstr ""
-
-#. module: l10n_ar_ux
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_move_change_rate__move_id
-msgid "Move"
-msgstr "Movimiento"
 
 #. module: l10n_ar_ux
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_afip_activity__name
@@ -701,11 +582,6 @@ msgid "Ret/Perc SICORE Aplicada"
 msgstr ""
 
 #. module: l10n_ar_ux
-#: model:ir.model.fields,help:l10n_ar_ux.field_account_move_change_rate__currency_rate
-msgid "Select a rate to apply on the invoice"
-msgstr "Selecciona una cotización para aplicar en la factura"
-
-#. module: l10n_ar_ux
 #: model:ir.model.fields.selection,name:l10n_ar_ux.selection__res_partner__integrante_soc_padron__s
 #: model:ir.model.fields.selection,name:l10n_ar_ux.selection__res_partner__monotributo_padron__s
 msgid "Si"
@@ -753,21 +629,6 @@ msgid "Taxes"
 msgstr "Impuestos"
 
 #. module: l10n_ar_ux
-#: model:ir.model.fields,help:l10n_ar_ux.field_account_move_change_rate__day_rate
-msgid ""
-"The currency rate on the invoice date will be used. If the invoice does not "
-"have a date, the currency rate will be used at the time of validation."
-msgstr ""
-"El tipo de cambio a utilizar será el de la fecha de la factura. Si la "
-"factura no tiene fecha, se utilizará el de la fecha de validación."
-
-#. module: l10n_ar_ux
-#. odoo-python
-#: code:addons/l10n_ar_ux/wizards/account_move_change_rate.py:0
-msgid "The forced rate '%s' was removed, date rate will be use"
-msgstr ""
-
-#. module: l10n_ar_ux
 #: model:ir.model.fields,help:l10n_ar_ux.field_res_company__gross_income_jurisdiction_ids
 #: model:ir.model.fields,help:l10n_ar_ux.field_res_partner__gross_income_jurisdiction_ids
 #: model:ir.model.fields,help:l10n_ar_ux.field_res_users__gross_income_jurisdiction_ids
@@ -787,11 +648,6 @@ msgid "This option enables open documents in the payment report."
 msgstr "Esta opción permite abrir documentos en el reporte de pago."
 
 #. module: l10n_ar_ux
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_move_change_rate__day_rate
-msgid "Use currency rate of the day"
-msgstr "Utilizar cotización del día"
-
-#. module: l10n_ar_ux
 #: model_terms:ir.ui.view,arch_db:l10n_ar_ux.res_config_settings_inherit_view_form
 msgid "Vaciar contenido"
 msgstr ""
@@ -804,11 +660,6 @@ msgstr "Si"
 #. module: l10n_ar_ux
 #: model_terms:ir.ui.view,arch_db:l10n_ar_ux.report_invoice_document
 msgid "a un tipo de cambio consignado de"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:ir.model,name:l10n_ar_ux.model_account_move_change_rate
-msgid "account.move.change.rate"
 msgstr ""
 
 #. module: l10n_ar_ux
@@ -825,8 +676,3 @@ msgstr ""
 #: model:ir.model,name:l10n_ar_ux.model_afip_tax
 msgid "afip.tax"
 msgstr ""
-
-#. module: l10n_ar_ux
-#: model_terms:ir.ui.view,arch_db:l10n_ar_ux.view_account_move_change_rate
-msgid "or"
-msgstr "o"
