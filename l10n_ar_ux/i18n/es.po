@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-15 01:07+0000\n"
+"POT-Creation-Date: 2025-02-19 02:06+0000\n"
 "PO-Revision-Date: 2024-11-14 20:20+0000\n"
 "Last-Translator: Mariana Torres <mt@adhoc.com.ar>, 2025\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
@@ -662,7 +662,7 @@ msgstr "Si"
 #. odoo-python
 #: code:addons/l10n_ar_ux/models/account_move.py:0
 msgid "You cannot cancel documents already posted in AFIP (%s)."
-msgstr ""
+msgstr "No pueden cancelarse documentos ya validados en ARCA (%s)."
 
 #. module: l10n_ar_ux
 #: model_terms:ir.ui.view,arch_db:l10n_ar_ux.report_invoice_document
