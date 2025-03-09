@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-07 02:08+0000\n"
+"POT-Creation-Date: 2025-03-09 02:38+0000\n"
 "PO-Revision-Date: 2024-11-14 20:20+0000\n"
 "Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2025\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
@@ -73,16 +73,6 @@ msgid "According to partner VAT responsibility"
 msgstr "De acuerdo a la responsabilidad de IVA"
 
 #. module: l10n_ar_ux
-#: model:ir.model,name:l10n_ar_ux.model_account_account
-msgid "Account"
-msgstr "Cuenta"
-
-#. module: l10n_ar_ux
-#: model:ir.model,name:l10n_ar_ux.model_account_chart_template
-msgid "Account Chart Template"
-msgstr "Plantilla de plan contable"
-
-#. module: l10n_ar_ux
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_res_company__l10n_ar_report_signed_by
 msgid "Aclaracion"
 msgstr ""
@@ -140,8 +130,6 @@ msgid "Agregar Duplicado/Triplicado"
 msgstr ""
 
 #. module: l10n_ar_ux
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_account__algolia_search
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_chart_template__algolia_search
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_account_journal__algolia_search
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_account_move__algolia_search
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_account_payment__algolia_search
