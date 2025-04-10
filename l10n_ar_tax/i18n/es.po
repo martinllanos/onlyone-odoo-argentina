@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-23 06:41+0000\n"
+"POT-Creation-Date: 2025-04-10 15:33+0000\n"
 "PO-Revision-Date: 2024-12-05 18:38+0000\n"
 "Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2025\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
@@ -45,13 +45,13 @@ msgstr ""
 
 #. module: l10n_ar_tax
 #: model_terms:ir.ui.view,arch_db:l10n_ar_tax.report_payment_receipt_document
-msgid "- Santander Rio"
-msgstr ""
+msgid "- Exp."
+msgstr "- Venc."
 
 #. module: l10n_ar_tax
 #: model_terms:ir.ui.view,arch_db:l10n_ar_tax.report_payment_receipt_document
-msgid "- Exp."
-msgstr "- Venc."
+msgid "- Santander Rio"
+msgstr ""
 
 #. module: l10n_ar_tax
 #: model:ir.model.fields.selection,name:l10n_ar_tax.selection__account_tax__api_articulo_inciso_calculo_percepcion__001
@@ -294,18 +294,28 @@ msgstr "<span class=\"text-center\">Firma y Aclaración</span>"
 
 #. module: l10n_ar_tax
 #: model_terms:ir.ui.view,arch_db:l10n_ar_tax.report_payment_receipt_document
-msgid "<span>Imputed Amount</span>"
-msgstr "<span>Importe Imputado</span>"
+msgid "<span>Amount currency</span>"
+msgstr "<span>Importe divisa</span>"
 
 #. module: l10n_ar_tax
 #: model_terms:ir.ui.view,arch_db:l10n_ar_tax.report_payment_receipt_document
-msgid "<span>Pending Vouchers at </span>"
-msgstr "<span>Comprobantes Pendientes al </span>"
+msgid "<span>Amount</span>"
+msgstr "<span>Importe</span>"
+
+#. module: l10n_ar_tax
+#: model_terms:ir.ui.view,arch_db:l10n_ar_tax.report_payment_receipt_document
+msgid "<span>Balance</span>"
+msgstr "<span>Saldo</span>"
 
 #. module: l10n_ar_tax
 #: model_terms:ir.ui.view,arch_db:l10n_ar_tax.report_payment_receipt_document
 msgid "<span>Exp. Date</span>"
 msgstr "<span>Fecha Venc.</span>"
+
+#. module: l10n_ar_tax
+#: model_terms:ir.ui.view,arch_db:l10n_ar_tax.report_payment_receipt_document
+msgid "<span>Imputed Amount</span>"
+msgstr "<span>Importe Imputado</span>"
 
 #. module: l10n_ar_tax
 #: model_terms:ir.ui.view,arch_db:l10n_ar_tax.report_payment_receipt_document
@@ -319,23 +329,13 @@ msgstr "<span>Importe Original</span>"
 
 #. module: l10n_ar_tax
 #: model_terms:ir.ui.view,arch_db:l10n_ar_tax.report_payment_receipt_document
-msgid "<span>Amount currency</span>"
-msgstr "<span>Importe divisa</span>"
-
-#. module: l10n_ar_tax
-#: model_terms:ir.ui.view,arch_db:l10n_ar_tax.report_payment_receipt_document
-msgid "<span>Amount</span>"
-msgstr "<span>Importe</span>"
-
-#. module: l10n_ar_tax
-#: model_terms:ir.ui.view,arch_db:l10n_ar_tax.report_payment_receipt_document
 msgid "<span>Payments</span>"
 msgstr "<span>Pagos</span>"
 
 #. module: l10n_ar_tax
 #: model_terms:ir.ui.view,arch_db:l10n_ar_tax.report_payment_receipt_document
-msgid "<span>Balance</span>"
-msgstr "<span>Saldo</span>"
+msgid "<span>Pending Vouchers at </span>"
+msgstr "<span>Comprobantes Pendientes al </span>"
 
 #. module: l10n_ar_tax
 #: model_terms:ir.ui.view,arch_db:l10n_ar_tax.report_payment_receipt_document
@@ -367,11 +367,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:l10n_ar_tax.report_withholding_certificate_document
 msgid "<strong>VAT Cond: </strong>"
 msgstr "Cond. IVA:"
-
-#. module: l10n_ar_tax
-#: model_terms:ir.ui.view,arch_db:l10n_ar_tax.report_payment_receipt_document
-msgid "On account"
-msgstr "A cuenta"
 
 #. module: l10n_ar_tax
 #: model_terms:ir.ui.view,arch_db:l10n_ar_tax.view_account_payment_form
@@ -655,6 +650,21 @@ msgid "ID"
 msgstr ""
 
 #. module: l10n_ar_tax
+#: model:account.fiscal.position,name:l10n_ar_tax.fiscal_position_caba
+msgid "IIBB CABA"
+msgstr ""
+
+#. module: l10n_ar_tax
+#: model:account.fiscal.position,name:l10n_ar_tax.fiscal_position_caba_and_proffits
+msgid "IIBB CABA + ganancias"
+msgstr ""
+
+#. module: l10n_ar_tax
+#: model:account.fiscal.position,name:l10n_ar_tax.fiscal_position_cordoba
+msgid "IIBB Córdoba"
+msgstr ""
+
+#. module: l10n_ar_tax
 #: model:ir.model.fields,help:l10n_ar_tax.field_l10n_ar_payment_withholding__withholding_sequence_id
 msgid ""
 "If no sequence provided then it will be required for you to enter "
@@ -771,6 +781,11 @@ msgid "Observations:"
 msgstr "Observaciones:"
 
 #. module: l10n_ar_tax
+#: model_terms:ir.ui.view,arch_db:l10n_ar_tax.report_payment_receipt_document
+msgid "On account"
+msgstr "A cuenta"
+
+#. module: l10n_ar_tax
 #. odoo-python
 #: code:addons/l10n_ar_tax/models/account_fiscal_position_l10n_ar_tax.py:0
 #: code:addons/l10n_ar_tax/models/res_company.py:0
@@ -875,6 +890,11 @@ msgstr ""
 #. module: l10n_ar_tax
 #: model:ir.model.fields.selection,name:l10n_ar_tax.selection__account_fiscal_position_l10n_ar_tax__webservice__rentas_cordoba
 msgid "Rentas Cordoba"
+msgstr ""
+
+#. module: l10n_ar_tax
+#: model:account.fiscal.position,name:l10n_ar_tax.fiscal_position_proffits
+msgid "Ret. ganancias"
 msgstr ""
 
 #. module: l10n_ar_tax
